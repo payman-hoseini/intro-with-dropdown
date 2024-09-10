@@ -41,7 +41,7 @@ export default function Header(){
     },[showMenu])
 
     const menuRef = useRef(null)
-    const handleClickOutside = (event : any) => {
+    const handleClickOutside = (event : MouseEvent) => {
         if (menuRef.current == event.target) {
             setShowMenu(false)
         }
