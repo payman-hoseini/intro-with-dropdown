@@ -19,10 +19,10 @@ export default function Hero(){
     },[])
 
     return (
-        <main className="flex md:flex-row flex-col-reverse  lg:max-w-[1800px] w-screen md:w-[90vw] mx-auto md:mt-20 mt-5">
+        <main className="flex md:flex-row flex-col-reverse lg:max-w-[1600px] w-screen md:w-[90vw] mx-auto md:mt-20 mt-5">
             <div className="md:pt-24 pt-12 flex-col md:text-start text-center">
-              <h2 className="font-bold lg:text-9xl md:text-5xl text-3xl md:w-[70%]">Make remote work</h2>
-              <p className="md:my-12 my-5 px-2 md:px-0 font-medium text-Medium-Gray text-sm md:text-xl md:w-[40%]">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+              <h2 className="font-bold lg:text-8xl md:text-5xl text-3xl md:w-[60%]">Make remote work</h2>
+              <p className="md:my-12 my-5 px-2 md:px-0 font-medium text-Medium-Gray text-sm md:text-xl md:w-[50%]">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
               <button className="bg-Almost-Black text-white font-medium px-5 py-3 md:px-8 md:py-4 rounded-2xl hover:bg-Almost-White hover:text-Almost-Black hover:border border-Almost-Black hover:duration-500">Learn more</button>
               <div className="md:mt-28 mt-10 flex space-x-1 md:space-x-20">
                 <div className="w-1/4 md:w-fit scale-[0.6] md:scale-100">
